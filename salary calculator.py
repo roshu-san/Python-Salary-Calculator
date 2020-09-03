@@ -1,6 +1,6 @@
 print("Your Salary Calculator/Calculator de Salariu")
 language = input("Choose/Alegeti: 1 for english/2 pentru română ")
-while language == "1" or "2":
+if language == "1" or "2":
     while language == "1":
         print("This program helps you calculate your salary or to find out how much money you could save in a day, week, month or year.")
         user_input = float(input("How much do you make per hour? "))
@@ -64,4 +64,3 @@ while language == "1" or "2":
         print("Salariul economisit într-o lună:", percentage_monthly_salary) 
         print("Salariul economisit într-un an:", percentage_annual_salary)     
         break
-    break
